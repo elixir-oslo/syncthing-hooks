@@ -83,5 +83,5 @@ const poll = async () => {
   state.seenIds = seenIds;
 };
 
-setInterval(poll, 30000);
+setInterval(poll, 1000);
 poll();
